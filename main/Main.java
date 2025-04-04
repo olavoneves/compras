@@ -48,7 +48,6 @@ public class Main {
                     verdade = false;
                     break;
                 }else {
-                    System.out.print("Digite o produto escolhido: ");
                     produto = JOptionPane.showInputDialog(null, "Digite o produto escolhido:");
                     compras = new Compra(limiteCartao, produto);
 
