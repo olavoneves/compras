@@ -27,4 +27,8 @@ public class Compra {
         return valorDaCompra;
     }
 
+    @Override
+    public String toString() {
+        return "\nCOMPRAS REALIZADAS: \n\n" + this.produto + " - " + this.descricaoDoProduto + " (" +  this.valorDaCompra + ")\n\n";
+    }
 }
